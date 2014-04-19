@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Khanoi towers</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <!-- this is for the towers -->
+    <section id="towers_container">
+        <!-- there are the towers -->
+        <ul id="tower1" data-num="1" droppable="true" ondragover="dragover_handler(event);" ondrop="drop_handler(event);">
+            
+        </ul>
+        <ul id="tower2" data-num="2" droppable="true" ondragover="dragover_handler(event);" ondrop="drop_handler(event);">
+            
+        </ul>
+        <ul id="tower3" data-num="3" droppable="true" ondragover="dragover_handler(event);" ondrop="drop_handler(event);">
+            
+        </ul>
+    </section>
+    <!-- all moves of disks will be logged here -->
+    <section id="actions_log">
+        <ul id="actual_actions_log"></ul>
+    </section>
+    <!-- all actions like start of new game will be here -->
+    <section id="menu">
+        <div id="start_button">start with <span onclick="event.stopPropagation()" id="number_of_disks_input" contenteditable>5</span> disks</div>
+        <div id="cancel_button" onclick="cancelMove()">cancel last move</div>
+    </section>
+</body>
+</html>

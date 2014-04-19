@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);*/
+
+body {
+    width: 1000px;
+    height: 620px;
+    /*box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);*/
+    margin: auto;
+}
+
+/* section 1 */
+#towers_container {
+    width: 900px;
+    height: 520px;
+    /*box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);*/
+    float: left;
+}
+
+/* the towers */
+#towers_container ul {
+    float: left;
+    width: 300px;
+    height: 520px;
+    /*box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);*/
+}
+
+/* right banner */
+#actions_log {
+    width: 100px;
+    height: 520px;
+    /*box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);*/
+    float: left;
+    position: relative;
+    font-family: monospace;
+    overflow: scroll;
+}
+/* set background for our towers */
+#tower1 {
+    background: #eee;
+}
+#tower2 {
+    background: #ddd;
+}
+#tower3 {
+    background: #ccc;
+}
+
+#actions_log h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-family: monospace;
+    font-size: 1.3em;
+    background: #eee;
+}
+
+
+#menu {
+    clear: both;
+}
+/* the button we press to start again, in the bottom */
+#start_button {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 35px;
+    background: #a5ccff;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    line-height: 35px;
+    padding-left: 14px;
+    float: left;
+    text-shadow: 0 0 5px #fff;
+}
+
+#number_of_disks_input {
+    background: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+.disk {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    height: 30px;
+    position: relative;
+    line-height: 30px;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    background: #666;
+}
+
+#cancel_button {
+    position: relative;
+    float: left;
+    top: 20px;
+    left: 40px;
+    width: 150px;
+    height: 35px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    line-height: 35px;
+    padding-left: 14px;
+    text-shadow: 0 0 5px #fff;
+}

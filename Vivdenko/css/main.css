@@ -1,0 +1,112 @@
+.fullScreenDiv {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#first_slide_container {
+    background: #0af;
+    background: rgb(255, 92, 173);
+}
+
+#first_slide_title {
+    font-size: 8em;
+    color: white;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#first_slide_img_container {
+    position: relative;
+    overflow: hidden;
+}
+#first_slide_img_container > img {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#second_slide_container {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10em;
+    color: black;
+}
+
+#second_slide_container > * {
+
+}
+
+#second_slide_container > p {
+    margin-top: 5em;
+    font-size: 0.141421356237em;
+}
+
+#problem_container {
+    position: relative;
+    top: 1em;
+}
+
+#problem_container > span {
+    position: relative;
+}
+
+
+#third_slide_container {
+    font-family: 'Varela Round', sans-serif;
+    background: rgb(255, 167, 5);
+    text-align: center;
+    color: white;
+}
+
+#third_slide_container > img {
+    width: 100%;
+}
+
+
+#fourth_slide_container {
+    text-align: center;
+}
+
+#fourth_slide_container > p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+#fourth_slide_img_container {
+    position: relative;
+}
+
+#fourth_slide_img_container > img {
+    position: absolute;
+    margin-left: -124px
+}
+
+
+#fifth_slide_container {
+    background: black;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+#fifth_slide_container > p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+
+#sixth_slide_container {
+    background-image: url("../img/IMG_8233.jpg");
+    background-repeat: no-repeat;
+    background-size: COVER;
+    text-align: center;
+    overflow: hidden;
+}

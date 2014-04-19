@@ -1,0 +1,186 @@
+#first_slide_img_container {
+    -skrollr-animation-name: first_slide_images_move_upwards;    
+}
+
+@-skrollr-keyframes first_slide_images_move_upwards {
+    5000 {
+        height: 100%;
+    }
+
+    6000 {
+        height: 0%;
+    }
+}
+
+
+
+#first_slide_img_background {
+    -skrollr-animation-name: loosers_fade;    
+}
+
+@-skrollr-keyframes loosers_fade {
+    3000 {
+        opacity: 1;
+    }
+
+    3500 {
+        opacity: 0.2;
+    }
+}
+
+
+
+#first_slide_img_container > img {
+    -skrollr-animation-name: first_slide_images_opacity;
+}
+
+@-skrollr-keyframes first_slide_images_opacity {
+    1500 {
+        opacity: 0;
+    }
+
+    2000 {
+        opacity: 1;
+    }
+}
+
+
+
+#first_slide_container {
+    -skrollr-animation-name:first_slide_positioning;
+}
+
+@-skrollr-keyframes first_slide_positioning {
+    0 {
+        left: 100%;
+    }
+    1000 {
+        left: 0%;
+    }
+
+    5000 {
+        bottom: 0%;
+    }
+    6000 {
+        bottom: 100%;
+    }
+}
+
+
+
+#second_slide_container {
+    -skrollr-animation-name:second_slide;
+}
+ 
+@-skrollr-keyframes second_slide {
+    6500 {
+        opacity: 0;
+    }
+
+    7000 {
+        opacity: 1;
+    }
+
+    11000 {
+        opacity: 1;
+    }
+
+    12000 {
+        opacity: 0;
+    }
+}
+
+
+
+#third_slide_container {
+    -skrollr-animation-name:third_slide;
+}
+
+@-skrollr-keyframes third_slide {
+    11000 {
+        font-size: 0em;
+        left: 100%;
+    }
+
+    12000 {
+        font-size: 6em;
+        left: 0%;
+    }
+
+
+    14000 {
+        bottom: 0%;
+    }
+
+    15000 {
+        bottom: 100%;
+    }
+}
+
+
+#fourth_slide_container {
+    -skrollr-animation-name:fourth_slide;
+}
+
+@-skrollr-keyframes fourth_slide {
+    16000 {
+        opacity: 0
+    }
+
+    17000 {
+        opacity: 1;
+    }
+
+    20000 {
+        opacity: 1
+    }
+
+    21000 {
+        opacity: 0;
+    }
+}
+
+
+#appearing_chrome {
+    -skrollr-animation-name:appearing_chrome_anim;
+}
+
+@-skrollr-keyframes appearing_chrome_anim {
+    18000 {
+        opacity: 0
+    }
+
+    19000 {
+        opacity: 1;
+    }
+}
+
+
+#fifth_slide_container {
+    -skrollr-animation-name:fifth_slide_container_anim;
+}
+
+@-skrollr-keyframes fifth_slide_container_anim {
+    21000 {
+        bottom: 100%;
+    }
+
+    22000 {
+         bottom: 0%;
+    }
+}
+
+
+#sixth_slide_container {
+    -skrollr-animation-name: sixth_slide_container_anim;
+}
+
+@-skrollr-keyframes sixth_slide_container_anim {
+    22000 {
+        bottom: 100%;
+    }
+
+    23000 {
+         bottom: 0%;
+    }
+}
